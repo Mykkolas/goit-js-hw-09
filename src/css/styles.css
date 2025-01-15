@@ -6,13 +6,41 @@
 */
 /* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+@import url('./gallery.css');
+@import url('./form.css');
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+    margin: 0;
+    background-color: #4a7efc;
+}
+
+h1 {
+    font-size: 3em;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.gallery-btn {
+    padding: 10px;
+    background-color: #3db667;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #066843;
+    border: 1px solid white;
+    color: white;
+}
